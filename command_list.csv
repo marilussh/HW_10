@@ -1,0 +1,63 @@
+    1  cd '/d/Desktop/Практика 6. Git'
+    2  /d/Desktop/Практика\ 6.\ Git
+    3  cd '/d/Desktop/Практика 6. Git'
+    4  cd 
+    5  cd 
+    6  '/d/Desktop/Практика 6. Git'
+    7  cd '/d/Desktop/Практика 6. Git'
+    8  clear.exe 
+    9  ls -l
+   10  touch test.text
+   11  ls -l
+   12  mkdir Masha
+   13  cp test.txt Masha/
+   14  cp test.text Masha/
+   15  ls -l
+   16  systeminfo
+   17  cd Masha/
+   18  ls -l
+   19  cd ../
+   20  attrib +r test.text
+   21  ls -l
+   22  git clone [200~https://github.com/marilussh/HW_10.git~
+   23  git clone https://github.com/marilussh/HW_10.git
+   24  cd HW_10/
+   25  git config --global user.name "marilussh"
+   26  git config --global user.email "lusnikmaria@gmail.com"
+   27  touch text_ignore.txt
+   28  cd .gitignore 
+   29  cd .gitignore /
+   30  cd .gitignore/
+   31  vim .gitignore
+   32  git status
+   33  git add *
+   34  git status
+   35  git add text_ignore.txt
+   36  git status
+   37  git status
+   38  git add text_ignore.txt
+   39  git status
+   40  git add .
+   41  git status
+   42  git commit -m "Task 1"
+   43  touch main_test.txt
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit -m "Task 2"
+   48  git checkout -b develop
+   49  touch develop_test.txt
+   50  git add .
+   51  git status
+   52  git commit -m "Task 3.1"
+   53  vim develop_test.txt
+   54  git status
+   55  git add .
+   56  git status
+   57  git commit -m "Task 3.2"
+   58  git checkout main
+   59  git merge develop
+   60  git log
+   61  history > command_list.csv.
+   62  rm command_list.csv.
+   63  history > command_list.csv
